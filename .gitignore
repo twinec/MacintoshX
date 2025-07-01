@@ -1,23 +1,15 @@
-# Compiled binary files
+# HDL build artifacts
+*.bit
 *.bin
-*.hex
-*.elf
-*.out
-
-# FPGA synthesis/build artifacts
+*.vcd
+*.vvp
 *.jou
 *.log
 *.str
 *.dcp
-*.bit
-*.vcd
-*.vvp
 *.pb
 *.xml
 *.json
-*.svf
-*.mcs
-*.xpr
 *.runs/
 *.cache/
 *.webtalk/
@@ -25,40 +17,43 @@
 *.hw/
 *.sim/
 
-# PCB design tool files
-*.sch-bak
-*.brd-bak
-*.tmp
-__pycache__/
-*.bak
-*.swp
-*.swo
-
-# IDE/project-specific files
-.vscode/
-.idea/
-*.iml
-.DS_Store
-
 # Firmware build artifacts
+*.elf
+*.out
 *.o
+*.d
+*.hex
 *.map
 *.lst
-*.d
 build/
 dist/
 
-# Markdown preview or export artifacts
+# EasyEDA project files and exports
+*.zip
+*.sch-bak
+*.pcb-bak
+*.json
+*.tmp
+EasyEDA_Backups/
+AutoSave_*/ 
+*.autosave
+*.bak
+*.DS_Store
+
+# VSCode / IDE files
+.vscode/
+.idea/
+*.iml
+
+# Markdown exports
 *.md.pdf
 *.html
 
-# Logs or temp files
-*.log
-*.tmp
-*.err
-*.aux
-
-# OS-specific
+# OS-specific files
 Thumbs.db
 ehthumbs.db
 desktop.ini
+
+# Python / script cache
+__pycache__/
+*.pyc
