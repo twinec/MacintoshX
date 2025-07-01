@@ -1,0 +1,64 @@
+# Compiled binary files
+*.bin
+*.hex
+*.elf
+*.out
+
+# FPGA synthesis/build artifacts
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.vcd
+*.vvp
+*.pb
+*.xml
+*.json
+*.svf
+*.mcs
+*.xpr
+*.runs/
+*.cache/
+*.webtalk/
+*.ip_user_files/
+*.hw/
+*.sim/
+
+# PCB design tool files
+*.sch-bak
+*.brd-bak
+*.tmp
+__pycache__/
+*.bak
+*.swp
+*.swo
+
+# IDE/project-specific files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Firmware build artifacts
+*.o
+*.map
+*.lst
+*.d
+build/
+dist/
+
+# Markdown preview or export artifacts
+*.md.pdf
+*.html
+
+# Logs or temp files
+*.log
+*.tmp
+*.err
+*.aux
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
